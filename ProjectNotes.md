@@ -14,3 +14,15 @@ App Layout: Creating the sidebar
 
 #Creating part of the Nav menu:
 Navigation: Create a ListNav with LinkBox
+
+#Using data in a data structure(in this case an array of objects), along with the map method to do a repititive task-in this case populate multiple list items of the menu in the ui. Typically we can use the map method to consume data in a context repititively:
+Navigation: Create a ListNav with LinkBox
+
+#How to create a scrolling/scrollable sidebar:
+Navigation: Create Playlist Menu
+
+#Start of backend stuff:
+Data modeling: Setup Prisma & PostgrSQL on Heroku
+
+#Workaround for databases by creating a shadow database when working with Heroku:
+Data modeling: Setup Prisma & PostgrSQL on Heroku
