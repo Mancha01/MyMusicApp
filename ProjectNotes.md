@@ -193,3 +193,94 @@ Middleware: Middleware Edge Functions
 
 #Forcing unauthenticated user back on the signin page:
 Middleware: Middleware Edge Functions
+
+#Creating a custom hook:
+Fetching Data: Custom hooks for Fetching data
+
+#SWR library for data fetching:
+Fetching Data: Custom hooks for Fetching data
+https://swr.vercel.app/
+
+#naming convention for custom hooks:
+Fetching Data: Custom hooks for Fetching data
+
+#preferance to using SWR vs Redux:
+Fetching Data: Custom hooks for Fetching data
+
+#Api to get playlists:
+Fetching Data: Fetch and render data into Components
+
+#Fetching data from our playlists and populating in our ui using our Api
+Fetching Data: Fetch and render data into Components
+
+#Scenarios to use chakra uis Image vs Next image
+UI Layout:Gradient Background and Image Box
+
+#Using gradients in chakra ui to create a beautiful linear gradient background that has different color densities at different levels. Also, making the gradient color have multiple options
+UI Layout:Gradient Background and Image Box
+
+#Server side data: Server side data fetching being able to be done on pages and not on components
+UI Layout: Load Artists Data
+
+#optimal choices when considering whether data will change while user is looking at it or whether it will stay the same after the initial render
+UI Layout: Load Artists Data
+
+#function to get server side props to be injected into a page(function will be called everytime page is requested):
+UI Layout: Load Artists Data
+
+#getStaticProps getServerSideProps:
+UI Layout: Load Artists Data
+
+#Applying one color to all the text inside a container:
+UI Layout: Artists List UI Layout
+
+#When in production, don't run command 'npx prisma db push', use migrations instead as we can't have data being wiped when in production. This command was used in a testing scenario:
+Dynamic UI: Seed User Data
+
+#npx prisma migrate reset:
+Dynamic UI: Seed User Data
+
+#Sample usage of template strings
+Dynamic UI: Seed User Data
+
+#Dynamic query parameter in Next js:
+Dynamic UI: Build dynamic Playlist Pages
+
+#Dynamic variable:
+Dynamic UI: Build dynamic Playlist Pages
+
+#Dynamic routing to dynamic pages:
+Dynamic UI: Build dynamic Playlist Pages
+
+#Restricting access to dynamic pages based on the user id:
+Dynamic UI: Build dynamic Playlist Pages
+
+#Setting rules for fetching data/ setting Api rules:
+Dynamic UI: Build dynamic Playlist Pages
+
+#using 'include' within the context of prisma queries:
+Dynamic UI: Build dynamic Playlist Pages
+
+#Setting rules for specificity when fetching data using prisma:
+Dynamic UI: Build dynamic Playlist Pages
+
+#Create a random color generator for our backgrounds(for colors within the context of chakra ui) (using Math.floor , Math.random within the syntax for randomization):
+Dynamic UI: Playlist page UI
+
+#Random image linking:
+Dynamic UI: Playlist page UI
+
+#transparent divs(chakra ui) for glass like design:
+Dynamic UI: Songs Table UI
+
+#semi transparent line design:
+Dynamic UI: Songs Table UI
+
+#Adding hover state using in-line styling in chakra ui:
+Dynamic UI: Songs UI and time format
+
+#Getting the index when iterating over a data source using the map method
+Dynamic UI: Songs UI and time format
+
+#Iterating over a data source and consuming individual properties of data source in a design using the map method:
+Dynamic UI: Songs UI and time format
