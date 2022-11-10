@@ -284,3 +284,12 @@ Dynamic UI: Songs UI and time format
 
 #Iterating over a data source and consuming individual properties of data source in a design using the map method:
 Dynamic UI: Songs UI and time format
+
+#Formatting date and time using formatDuration library:
+Dynamic UI: Songs UI and time format
+
+#Global state for components to be able to communicate with each other[Using Easy Peasy(an alternative option would be Redux or hooks plus the context Api)]:
+State Management: Player State with Easy Peasy
+
+#Using React Howler: A React.js wrapper for howler.js (audio player). howler.js is an audio library for the modern web. It defaults to Web Audio API and falls back to HTML5 Audio.
+State Management: Player Controls Ui
