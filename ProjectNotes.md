@@ -362,3 +362,9 @@ Deployment and testing: Deploying with vercel
 
 #connecting to our database in deployment using the database url:
 Deployment and testing: Deploying with vercel
+
+#Ignoring typescript type errors when going to production mode:
+Deployment and testing: Deploying with vercel
+
+#Ignoring eslint when in production:
+Deployment and testing: Deploying with vercel
