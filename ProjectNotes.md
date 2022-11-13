@@ -355,3 +355,10 @@ Callbacks: End Song & Repeat Handlers
 Callbacks: End Song & Repeat Handlers
 
 #set up useEffect that keeps the repeat ref and the repeat state in sync
+Callbacks: End Song & Repeat Handlers
+
+#Chaining multiple commands together using logical operators
+Deployment and testing: Deploying with vercel
+
+#connecting to our database in deployment using the database url:
+Deployment and testing: Deploying with vercel
