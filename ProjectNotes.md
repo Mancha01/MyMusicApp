@@ -348,4 +348,10 @@ Callbacks: End Song & Repeat Handlers
 #implementing and debugging the player's next, previous, repeat, and shuffle functions.
 Callbacks: End Song & Repeat Handlers
 
-s
+#problem that arises when you are using hooks that have event callbacks. Anytime you have to pass in an event callback into something with the hook, you will run into this closure problem
+Callbacks: End Song & Repeat Handlers
+
+#using useRef with the song repeat functionality:
+Callbacks: End Song & Repeat Handlers
+
+#set up useEffect that keeps the repeat ref and the repeat state in sync

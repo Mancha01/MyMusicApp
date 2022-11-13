@@ -36,6 +36,7 @@ const Player = ({ songs, activeSong }) => {
   const [shuffle, setShuffle] = useState(false)
   const [duration, setDuration] = useState(0.0)
   const soundRef = useRef(null)
+  const repeatRef = useRef(repeat)
   const setActiveSong = useStoreActions((state: any) => state.changeActiveSong)
 
   useEffect(() => {
@@ -56,6 +57,11 @@ const Player = ({ songs, activeSong }) => {
   useEffect(() => {
     setActiveSong(songs[index])
   }, [index, setActiveSong, songs])
+
+  useEffect(() => {
+    repeatRef.current = repeat
+  }, [repeat])
+
   const setPlayState = (value) => {
     setPlaying(value)
   }
@@ -89,10 +95,12 @@ const Player = ({ songs, activeSong }) => {
   }
 
   const onEnd = () => {
-    if (repeat) {
+    if (repeatRef.current) {
+      console.log('should repeat')
       setSeek(0)
       soundRef.current.seek(0)
     } else {
+      console.log('why did you get here')
       nextSong()
     }
   }
