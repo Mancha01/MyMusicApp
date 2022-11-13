@@ -368,3 +368,9 @@ Deployment and testing: Deploying with vercel
 
 #Ignoring eslint when in production:
 Deployment and testing: Deploying with vercel
+
+#deployment:
+Deployment and testing: Deploying with vercel
+
+#Purchasing a custom domain to use for your project within vercel or tansfering one to vercel for use with your next js project/application:
+Deployment and testing: Deploying with vercel
