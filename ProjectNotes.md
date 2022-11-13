@@ -374,3 +374,9 @@ Deployment and testing: Deploying with vercel
 
 #Purchasing a custom domain to use for your project within vercel or tansfering one to vercel for use with your next js project/application:
 Deployment and testing: Deploying with vercel
+
+#Testing:
+Deployment and testing: Testing and CI
+
+#prisma full text search functionality:
+Wrapping up: Wrapping up
